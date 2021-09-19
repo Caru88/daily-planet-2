@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+/* General */
+* {
+    
+    margin: 0;
+}
+
+img {
+    filter: saturate(0%) sepia(20%);
+    max-width: 600px;
+}
+h1 {
+    display: none;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* header */
+.suscribers {
+    padding: 5%;
+    background-color: gray;
+    color: antiquewhite;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, ;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 10;
+}
+
+
+header img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+}
+ul {
+    text-align: center;
+}
+
+/* navbar */
+.navList     {
+    display: inline;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    padding: 0.5% 2%;
+
+
+}
+
+.navList a {
+    text-decoration: none;
+    color: rgb(133, 136, 132);
+}
+
+.navList:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+/* Pricnipal */
+.principal {
+    display: flex;
+    padding:3%;
+    justify-content: space-between;
+}
+
+/* News */
+
+main {
+    width: 60%;
+}
+
+
+main .reporterName {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .photo {
+    max-width: 600px;
+}
+
+
+
+.newsContent {
+  display: flex;
+}
+
+main .newsContent {
+    padding: 0 1%;
+    text-align: justify;
+}
+
+main .newsContent p {
+    padding: 3%;
+   
+}
+
+
+/* Aside  */
+
+aside {
+    width: 30%;
+    padding: 3%;
+    border-left: 2px solid  black;
+}
+aside .ads {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+aside img {
+    width: 90%;
+}
+
+/* form */
+
+.suscribe {
+    margin: auto;
+    border-top: 3px solid black;
+    background-color: darkgrey;
+    padding: 2% 0 2% 10%;
+    box-shadow: 2px 2px 2px 1px rgba(2, 2, 2, 32%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label.userInfo {
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+}
+
+form input, form select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+form label.userType {
+    width: 25%;
+}
+
+form button {
+    width: 20%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(2, 2, 2, 32%);
